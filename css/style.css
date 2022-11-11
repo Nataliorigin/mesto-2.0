@@ -1,0 +1,65 @@
+.page {
+  background: #000;
+max-width: 1280px;
+min-width: 320px;
+margin: 0 auto;
+}
+
+* {
+/* outline: 3px solid rgb(200, 255, 0); */
+}
+
+.page__body {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 45px 0 60px;
+}
+.header {
+  padding-bottom: 41px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #545454;
+  opacity: .7;
+}
+.header__logo {
+  width: 11.09vw;
+}
+.container {
+}
+.profile {
+}
+.profile__container {
+}
+.profile__avatar {
+}
+.profile__info {
+}
+.profile__title {
+}
+.profile__pencil {
+}
+.profile__subtitle {
+}
+.profile__add-button {
+}
+.profile__add-button-plus {
+}
+.elements {
+}
+.elements__container {
+}
+.elements__item {
+}
+.item {
+}
+.item__image {
+}
+.item__container {
+}
+.item_title {
+}
+.item__like {
+}
+.footer {
+}
+.footer__copyright {
+}
