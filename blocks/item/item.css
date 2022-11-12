@@ -1,7 +1,12 @@
 .item {
-    grid-template-rows: 1fr;
-  }n: column;
+  display: flex;
+  flex-direction: column;
   height: 361px;
   border-radius: 10px;
   overflow: hidden;
+}
+@media screen and (max-width: 620px) {
+  .item {
+    grid-template-rows: 1fr;
+  }
 }

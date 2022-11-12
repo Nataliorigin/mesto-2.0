@@ -6,3 +6,14 @@
   height: 19px;
   box-sizing: border-box;
 }
+.item__like {
+  border: none;
+  background: url(../img/like.svg) center no-repeat;
+  background-size: 100%;
+  height: 19px;
+  width: 22px;
+  cursor: pointer;
+}
+.item__like:hover {
+  opacity: 0.5;
+}
