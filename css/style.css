@@ -1,12 +1,13 @@
 .page {
   background: #000;
-max-width: 1280px;
-min-width: 320px;
-margin: 0 auto;
+  max-width: 1280px;
+  min-width: 320px;
+  margin: 0 auto;
+  font-family: "Inter", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 * {
-/* outline: 3px solid rgb(200, 255, 0); */
+  outline: 1px solid salmon;
 }
 
 .page__body {
@@ -15,33 +16,100 @@ margin: 0 auto;
   padding: 45px 0 60px;
 }
 .header {
-  padding-bottom: 41px;
   box-sizing: border-box;
   border-bottom: 1px solid #545454;
-  opacity: .7;
+  opacity: 0.7;
 }
 .header__logo {
   width: 11.09vw;
+  padding-bottom: 37px;
 }
 .container {
+  box-sizing: border-box;
+  padding: 40px 0 66px;
 }
 .profile {
+  display: flex;
+  justify-content: space-between;
+  min-height: 120px;
+  align-items: center;
 }
 .profile__container {
+  display: flex;
 }
 .profile__avatar {
+  width: 120px;
+  height: 120px;
+}
+.profile__avatar-img {
+  width: 100%;
+  border-radius: 50%;
 }
 .profile__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 7px;
+  padding-left: 30px;
 }
 .profile__title {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 1.14;
+  box-sizing: border-box;
+  position: relative;
 }
 .profile__pencil {
+  position: relative;
+  top: 2px;
+  left: 0;
+  background-color: #000;
+  border: 1px solid #fff;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .profile__subtitle {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #ffffff;
 }
 .profile__add-button {
+  position: relative;
+  box-sizing: border-box;
+  width: 150px;
+  height: 50px;
+  border: 2px solid #fff;
+  background-color: #000;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
 }
-.profile__add-button-plus {
+.profile__add-button-plus::before,
+.profile__add-button-plus::after {
+  content: "";
+  position: absolute;
+  top: 46.75%;
+  left: 42.47%;
+  width: 22px;
+  height: 3px;
+  background: #fff;
+}
+.profile__add-button-plus::before {
+  transform: rotate(90deg);
 }
 .elements {
 }
