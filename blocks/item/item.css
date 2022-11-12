@@ -1,0 +1,7 @@
+.item {
+    grid-template-rows: 1fr;
+  }n: column;
+  height: 361px;
+  border-radius: 10px;
+  overflow: hidden;
+}

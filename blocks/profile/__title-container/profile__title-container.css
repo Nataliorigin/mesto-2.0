@@ -1,0 +1,8 @@
+.profile__title-container {
+    width: 282px;
+    margin: 0 auto;
+    gap: 7px;
+    position: relative;
+    justify-content: center;
+    box-sizing: border-box;
+  }
