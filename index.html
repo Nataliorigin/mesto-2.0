@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./pages/index.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./img/icon_mesto.png" type="image/png">
     <title>Mesto</title>
   </head>
@@ -18,8 +19,9 @@
         <section class="profile">
           <div class="profile__container">
             <div class="profile__avatar">
-              <img class="profile__avatar-img" src="./img/aneta-voborilova-HxfVwDszy2Q-unsplash(1).jpg" alt="Жак-Ив
-                Кусто">
+              <img class="profile__avatar-img"
+                src="./img/aneta-voborilova.jpg"
+                alt="Черный кролик">
             </div>
             <div class="profile__info">
               <div class="profile__title-container">
@@ -37,53 +39,74 @@
         <section class="elements" aria-label="Изображения">
           <ul class="elements__container">
             <li class="elements__item item">
-              <img class="item__image" src="./img/alsu-vershinina - by-Brgr4Ag-unsplash(1).jpg"
+              <img class="item__image" src="./img/alsu-vershinina.jpg"
                 alt="Украшенная елка">
               <div class="item__container">
                 <h2 class="item__title">Ёлка</h2>
                 <div class="item__like "></div>
               </div>
             </li>
-             <li class="elements__item item">
-              <img class="item__image" src="./img/krakenimages-7BpuzmcxlHU-unsplash.jpg"
-                alt="Карачаевск">
+            <li class="elements__item item">
+              <img class="item__image"
+                src="./img/krakenimages.jpg"
+                alt="Праздничный ужин">
               <div class="item__container">
                 <h2 class="item__title">Вкусный ужин</h2>
                 <div class="item__like"></div>
               </div>
             </li>
             <li class="elements__item item">
-              <img class="item__image" src="./img/anita-austvika-f2imCQ-wfso-unsplash.jpg" alt="Новогодний подарок">
+              <img class="item__image"
+                src="./img/anita-austvika-podarok.jpg"
+                alt="Новогодний подарок">
               <div class="item__container">
                 <h2 class="item__title">Подарки</h2>
                 <div class="item__like"></div>
               </div>
             </li>
             <li class="elements__item item">
-              <img class="item__image" src="./img/anita-austvika-iW_nQ7h492s-unsplash.jpg" alt="Девочка украшает елку">
+              <img class="item__image"
+                src="./img/anita-austvika-girl.jpg" alt="Девочка
+                украшает елку">
               <div class="item__container">
                 <h2 class="item__title">Радость</h2>
                 <div class="item__like"></div>
               </div>
             </li>
             <li class="elements__item item">
-              <img class="item__image" src="./img/anita-austvika-vgRNplGtjBQ-unsplash.jpg" alt="Лодка с елкой на воде">
+              <img class="item__image"
+                src="./img/anita-austvika.jpg" alt="Лодка с
+                елкой на воде">
               <div class="item__container">
                 <h2 class="item__title">Нарядный город</h2>
                 <div class="item__like"></div>
               </div>
             </li>
             <li class="elements__item item">
-              <img class="item__image" src="./img/katie-azi-AHIS5FUW0gk-unsplash.jpg" alt="Кофе с маршмелоу">
+              <img class="item__image"
+                src="./img/katie-azi-.jpg" alt="Кофе с
+                маршмелоу">
               <div class="item__container">
                 <h2 class="item__title">Настроение</h2>
                 <div class="item__like"></div>
               </div>
             </li>
-
           </ul>
         </section>
       </main>
+      <section class="popup">
+        <div class="popup__container">
+          <button class="popup__button-close"></button>
+            <h2 class="popup__title">Редактировать профиль</h2>
+            <form class="popup__form" action="#" method="post" enctype="multipart/form-data">
+              <input class="popup__form-name" tabindex="1" placeholder="Имя"
+                type="text" name="username" value="">
+              <input class="popup__form-activity" tabindex="2"
+                placeholder="О себе" type="text" name="activity" value="">
+                <button class="popup__button-save">Сохранить</button>
+            </form>
+        </div>
+      </section>
       <footer class="footer">
         <p class="footer__copyright">&copy;&nbsp;2022 Mesto Russia</p>
       </footer>
