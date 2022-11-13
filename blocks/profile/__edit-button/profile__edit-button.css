@@ -7,6 +7,11 @@
   background: url(../../../img/pencil.svg) center / 10.45px 10px no-repeat;
   flex: 0 0 auto;
   padding: 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.profile__edit-button:hover {
+opacity: .6;
 }
 @media screen and (max-width: 568px) {
   .profile__edit-button {
@@ -16,6 +21,7 @@
     background-size: 7.5px 7.5px;
     align-self: center;
     position: absolute;
-    left: 87%;
+    top: 28%;
+    left: 103.5%;
   }
 }

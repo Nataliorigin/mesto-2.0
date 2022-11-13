@@ -10,7 +10,13 @@
   justify-content: center;
   align-items: center;
   background: url(../../../img/button-plus.png) center/16px 16px no-repeat;
+  cursor: pointer;
+  transition: 0.3s;
 }
+.profile__add-button:hover {
+  opacity: .6;
+}
+
 @media screen and (max-width: 755px) {
   .profile__add-button {
     width: 100%;
