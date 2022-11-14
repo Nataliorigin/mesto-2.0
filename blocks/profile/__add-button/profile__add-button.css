@@ -4,8 +4,8 @@
   height: 50px;
   border: 2px solid #fff;
   background-color: #000;
+  margin-left: 20px;
   padding: 0;
-  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,9 +17,15 @@
   opacity: .6;
 }
 
-@media screen and (max-width: 755px) {
+@media screen and (max-width: 760px) {
   .profile__add-button {
     width: 100%;
     align-items: center;
+    margin-top: 36px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .profile__add-button {
+    margin: 0;
   }
 }
