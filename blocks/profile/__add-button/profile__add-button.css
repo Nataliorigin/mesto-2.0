@@ -8,7 +8,6 @@
   padding: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
   background: url(../../../img/button-plus.png) center/16px 16px no-repeat;
   cursor: pointer;
   transition: 0.3s;
