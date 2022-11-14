@@ -25,11 +25,10 @@ let formElement = popupElement.querySelector('.popup__form');
 let nameInput = popupElement.querySelector('.popup__form-name');
 let activityInput = popupElement.querySelector('.popup__form-activity');
 
-
 function formSubmitHandler(evt) {
   evt.preventDefault(); // Эта строчка отменяет стандартную отправку формы
   profileNameElement.textContent = nameInput.value;
-  profileActivityElement.textContent = activityInput.value;// Вставьте новые значения с помощью textContent
+  profileActivityElement.textContent = activityInput.value;   // Вставьте новые значения с помощью textContent
 }
 // Прикрепляем обработчик к форме:
 // он будет следить за событием “submit” - «отправка»
