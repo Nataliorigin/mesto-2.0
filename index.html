@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./pages/index.css">
-    <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./img/icon_mesto.png" type="image/png">
     <title>Mesto</title>
   </head>
@@ -25,14 +24,14 @@
             </div>
             <div class="profile__info">
               <div class="profile__title-container">
-                <h1 class="profile__title">Новый 2023</h1>
-                <button class="profile__edit-button">
+                <h1 class="profile__title">Новый 2023fggfdgfdgdsffgdfgdfgdgfg</h1>
+                <button class="profile__edit-button" type="button">
                 </button>
               </div>
               <p class="profile__subtitle">Год черного водяного кролика</p>
             </div>
           </div>
-          <button class="profile__add-button">
+          <button class="profile__add-button" type="button">
           </button>
         </section>
         <section class="elements" aria-label="Изображения">
@@ -51,7 +50,7 @@
                 alt="Праздничный ужин">
               <div class="item__container">
                 <h2 class="item__title">Вкусный ужин</h2>
-                <div class="item__like"></div>
+                <button class="item__like" type="button"></button>
               </div>
             </li>
             <li class="elements__item item">
@@ -60,7 +59,7 @@
                 alt="Новогодний подарок">
               <div class="item__container">
                 <h2 class="item__title">Подарки</h2>
-                <div class="item__like"></div>
+                <button class="item__like" type="button"></button>
               </div>
             </li>
             <li class="elements__item item">
@@ -69,7 +68,7 @@
                 украшает елку">
               <div class="item__container">
                 <h2 class="item__title">Радость</h2>
-                <div class="item__like"></div>
+                <button class="item__like" type="button"></button>
               </div>
             </li>
             <li class="elements__item item">
@@ -78,7 +77,7 @@
                 елкой на воде">
               <div class="item__container">
                 <h2 class="item__title">Нарядный город</h2>
-                <div class="item__like"></div>
+                <button class="item__like" type="button"></button>
               </div>
             </li>
             <li class="elements__item item">
@@ -87,17 +86,21 @@
                 маршмелоу">
               <div class="item__container">
                 <h2 class="item__title">Настроение</h2>
-                <div class="item__like"></div>
+                <button class="item__like" type="button"></button>
               </div>
             </li>
           </ul>
         </section>
       </main>
+
+      <footer class="footer">
+        <p class="footer__copyright">&copy;&nbsp;2022 Mesto Russia</p>
+      </footer>
       <section class="popup">
         <div class="popup__container">
-          <button class="popup__button-close"></button>
+          <button class="popup__button-close type="button"></button>
           <h2 class="popup__title">Редактировать профиль</h2>
-          <form class="popup__form">
+          <form class="popup__form" action="#"name="form-profile">
             <input class="popup__form-name" tabindex="1" placeholder="Имя"
               type="text" name="username" value="">
             <input class="popup__form-activity" tabindex="2"
@@ -106,10 +109,7 @@
           </form>
         </div>
       </section>
-      <footer class="footer">
-        <p class="footer__copyright">&copy;&nbsp;2022 Mesto Russia</p>
-      </footer>
     </div>
-    <script src="./js/main.js"></script>
+    <script src="./scripts/index.js"></script>
   </body>
 </html>
