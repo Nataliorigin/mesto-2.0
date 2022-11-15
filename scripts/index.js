@@ -5,10 +5,9 @@ const popupOpenButtonElement = document.querySelector('.profile__edit-button');
 /*Изменение и сохрание имени профиля*/
 const profileNameElement = document.querySelector('.profile__title');
 const profileActivityElement = document.querySelector('.profile__subtitle');
-const formElement = popupElement.querySelector('.popup__form');
-const nameInput = popupElement.querySelector('.popup__form-name');
-const activityInput = popupElement.querySelector('.popup__form-activity');
-console.log(popupOpenButtonElement);
+const formElement = document.querySelector('.form');
+const nameInput = document.querySelector('.form__input_name_username');
+const activityInput = document.querySelector('.form__input_name_activity');
 
 const openPopup = function (event) {
   popupElement.classList.add('popup_opened');
