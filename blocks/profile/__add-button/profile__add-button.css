@@ -8,15 +8,15 @@
   padding: 0;
   display: flex;
   justify-content: center;
-  background: url(../../../img/button-plus.png) center/16px 16px no-repeat;
+  background: url(../../../img/button-plus.svg) center/22px 22px no-repeat;
   cursor: pointer;
   transition: 0.3s;
 }
 .profile__add-button:hover {
-  opacity: .6;
+  opacity: 0.6;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 806px) {
   .profile__add-button {
     width: 100%;
     align-items: center;
@@ -26,5 +26,6 @@
 @media screen and (max-width: 568px) {
   .profile__add-button {
     margin: 0;
+    background-size: 16px 16px;
   }
 }
