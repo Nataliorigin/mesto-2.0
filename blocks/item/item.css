@@ -5,8 +5,3 @@
   overflow: hidden;
    grid-template-rows: 282px 1fr;
 }
-@media screen and (max-width: 620px) {
-  .item {
-    grid-template-rows: 1fr;
-  }
-}
