@@ -21,6 +21,7 @@
     width: 100%;
     align-items: center;
     margin-top: 36px;
+    margin-left: 0;
   }
 }
 @media screen and (max-width: 568px) {
