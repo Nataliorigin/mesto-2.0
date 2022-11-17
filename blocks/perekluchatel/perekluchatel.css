@@ -8,3 +8,9 @@
 .perekluchatel input {
   display:none;
 }
+
+@media screen and (max-width: 1024px) {
+  .perekluchatel {
+display: none;
+  }
+}
