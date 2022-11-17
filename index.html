@@ -9,108 +9,121 @@
     <title>Mesto</title>
   </head>
   <body class="page">
+    <div id="snow-animation-container"></div>
     <div class="page__body">
       <header class="header">
         <img src="./img/logo.svg" alt="Логотип сервиса 'Место'"
           class="header__logo">
-      </header>
-      <main class="container">
-        <section class="profile">
-          <div class="profile__container">
-            <div class="profile__avatar">
-              <img class="profile__avatar-img"
-                src="./img/aneta-voborilova.jpg"
-                alt="Черный кролик">
+        <label class="perekluchatel">
+          <input type="checkbox" id="sneg">
+          <div class="sumblavam alemen"></div>
+        </header>
+        <main class="container">
+          <section class="profile">
+            <div class="profile__container">
+              <div class="profile__avatar">
+                <img class="profile__avatar-img"
+                  src="./img/aneta-voborilova.jpg"
+                  alt="Черный кролик">
+              </div>
+              <div class="profile__info">
+                <div class="profile__title-container">
+                  <h1 class="profile__title">Акакий</h1>
+                  <button class="profile__edit-button" type="button">
+                  </button>
+                </div>
+                <p class="profile__subtitle">Черный водяной кролик</p>
+              </div>
             </div>
-            <div class="profile__info">
-              <div class="profile__title-container">
-                <h1 class="profile__title">Акакий</h1>
-                <button class="profile__edit-button" type="button">
-                </button>
-              </div>
-              <p class="profile__subtitle">Черный водяной кролик</p>
-            </div>
-          </div>
-          <button class="profile__add-button" type="button">
-          </button>
-        </section>
-        <section class="elements" aria-label="Изображения">
-          <ul class="elements__container">
-            <li class="elements__item item">
-              <img class="item__image" src="./img/alsu-vershinina.jpg"
-                alt="Украшенная елка">
-              <div class="item__container">
-                <h2 class="item__title">Ёлка</h2>
-                <div class="item__like "></div>
-              </div>
-            </li>
-            <li class="elements__item item">
-              <img class="item__image"
-                src="./img/krakenimages.jpg"
-                alt="Праздничный ужин">
-              <div class="item__container">
-                <h2 class="item__title">Вкусный ужин</h2>
-                <button class="item__like" type="button"></button>
-              </div>
-            </li>
-            <li class="elements__item item">
-              <img class="item__image"
-                src="./img/anita-austvika-podarok.jpg"
-                alt="Новогодний подарок">
-              <div class="item__container">
-                <h2 class="item__title">Подарки</h2>
-                <button class="item__like" type="button"></button>
-              </div>
-            </li>
-            <li class="elements__item item">
-              <img class="item__image"
-                src="./img/anita-austvika-girl.jpg" alt="Девочка
-                украшает елку">
-              <div class="item__container">
-                <h2 class="item__title">Радость</h2>
-                <button class="item__like" type="button"></button>
-              </div>
-            </li>
-            <li class="elements__item item">
-              <img class="item__image"
-                src="./img/anita-austvika.jpg" alt="Лодка с
-                елкой на воде">
-              <div class="item__container">
-                <h2 class="item__title">Нарядный город</h2>
-                <button class="item__like" type="button"></button>
-              </div>
-            </li>
-            <li class="elements__item item">
-              <img class="item__image"
-                src="./img/katie-azi-.jpg" alt="Кофе с
-                маршмелоу">
-              <div class="item__container">
-                <h2 class="item__title">Настроение</h2>
-                <button class="item__like" type="button"></button>
-              </div>
-            </li>
-          </ul>
-        </section>
-      </main>
+            <button class="profile__add-button" type="button">
+            </button>
+          </section>
+          <section class="elements" aria-label="Изображения">
+            <ul class="elements__container">
+              <li class="elements__item item">
+                <img class="item__image" src="./img/alsu-vershinina.jpg"
+                  alt="Украшенная елка">
+                <div class="item__container">
+                  <h2 class="item__title">Ёлка</h2>
+                  <div class="item__like "></div>
+                </div>
+              </li>
+              <li class="elements__item item">
+                <img class="item__image"
+                  src="./img/krakenimages.jpg"
+                  alt="Праздничный ужин">
+                <div class="item__container">
+                  <h2 class="item__title">Вкусный ужин</h2>
+                  <button class="item__like" type="button"></button>
+                </div>
+              </li>
+              <li class="elements__item item">
+                <img class="item__image"
+                  src="./img/anita-austvika-podarok.jpg"
+                  alt="Новогодний подарок">
+                <div class="item__container">
+                  <h2 class="item__title">Подарки</h2>
+                  <button class="item__like" type="button"></button>
+                </div>
+              </li>
+              <li class="elements__item item">
+                <img class="item__image"
+                  src="./img/anita-austvika-girl.jpg" alt="Девочка
+                  украшает елку">
+                <div class="item__container">
+                  <h2 class="item__title">Радость</h2>
+                  <button class="item__like" type="button"></button>
+                </div>
+              </li>
+              <li class="elements__item item">
+                <img class="item__image"
+                  src="./img/anita-austvika.jpg" alt="Лодка с
+                  елкой на воде">
+                <div class="item__container">
+                  <h2 class="item__title">Нарядный город</h2>
+                  <button class="item__like" type="button"></button>
+                </div>
+              </li>
+              <li class="elements__item item">
+                <img class="item__image"
+                  src="./img/katie-azi-.jpg" alt="Кофе с
+                  маршмелоу">
+                <div class="item__container">
+                  <h2 class="item__title">Настроение</h2>
+                  <button class="item__like" type="button"></button>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </main>
 
-      <footer class="footer">
-        <p class="footer__copyright">&copy;&nbsp;2022 Mesto Russia</p>
-      </footer>
-      <section class="popup">
-        <div class="popup__container">
-          <button class="popup__button-close" type="button"></button>
-          <h2 class="popup__title">Редактировать профиль</h2>
-          <form class="popup__form form" action="#" name="form-profile">
-            <input class="form__input form__input_name_username" tabindex="1"
-              placeholder="Имя"
-              type="text" name="username" value="">
-            <input class="form__input form__input_name_activity" tabindex="2"
-              placeholder="О себе" type="text" name="activity" value="">
-            <button class="form__button-save" type="submit">Сохранить</button>
-          </form>
-        </div>
-      </section>
-    </div>
-    <script src="./scripts/index.js"></script>
-  </body>
-</html>
+        <footer class="footer">
+          <p class="footer__copyright">&copy;&nbsp;2022 Mesto Russia</p>
+        </footer>
+        <section class="popup">
+          <div class="popup__container">
+            <button class="popup__button-close" type="button"></button>
+            <h2 class="popup__title">Редактировать профиль</h2>
+            <form class="popup__form form" action="#" name="form-profile">
+              <input class="form__input form__input_name_username" tabindex="1"
+                placeholder="Имя"
+                type="text" name="username" value="">
+              <input class="form__input form__input_name_activity" tabindex="2"
+                placeholder="О себе" type="text" name="activity" value="">
+              <button class="form__button-save" type="submit">Сохранить</button>
+            </form>
+          </div>
+        </section>
+      </div>
+
+      <script>
+  var articleLink = '/scripts/other/482-snowfall-animaciya-padayuschego-snega.html';
+</script>
+      <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+      <script src="./scripts/script.js" defer></script>
+      <script src="./scripts/index.js"></script>
+    </body>
+  </html>

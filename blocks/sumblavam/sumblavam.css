@@ -1,0 +1,42 @@
+.sumblavam {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #a0c4d7;
+  transition: 0.4s;
+  border: 1px solid #a0c4d7;
+}
+
+.sumblavam:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 2px;
+  bottom: 5px;
+  background-color: #000000;
+  transition: 0.4s;
+}
+
+input:checked + .sumblavam {
+  background-color: #ffffff;
+}
+
+input:focus + .sumblavam {
+  box-shadow: 0 0 1px #464946;
+}
+
+input:checked + .sumblavam:before {
+  transform: translateX(22px);
+}
+
+.sumblavam.alemen {
+  border-radius: 44px;
+}
+
+.sumblavam.alemen:before {
+  border-radius: 50%;
+}
