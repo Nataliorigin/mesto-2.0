@@ -1,0 +1,10 @@
+.perekluchatel {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 30px;
+}
+
+.perekluchatel input {
+  display:none;
+}
