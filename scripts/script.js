@@ -145,7 +145,6 @@ var snow = function () {
     function getSmallSnow(width, height, blur, left, top, id) {
 
       var item = "<div class='snow" + id + "' style='position:absolute; margin-left: " + left + "px; margin-top: " + top + "px; width: " + width + "px; height: " + height + "px; border-radius: 50%; background-color: white; -webkit-filter: blur(" + blur + "px); -moz-filter: blur(" + blur + "px); -o-filter: blur(" + blur + "px); -ms-filter: blur(" + blur + "px); filter: blur(" + blur + "px);'></div>"
-
       return item;
     }
   }
@@ -167,11 +166,6 @@ function functionSneg() {
     console.log(`значение чекбокса ${sneg.checked}`);
   }
 }
-// статус чекбокса, для информации
-sneg.addEventListener('click', functionSneg); // здесь прописываем нашу функцию
-
-
-
-
+  sneg.addEventListener('click', functionSneg);
 
 

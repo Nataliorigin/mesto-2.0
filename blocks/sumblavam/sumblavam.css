@@ -5,9 +5,9 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #a0c4d7;
+  background-color: #c9e7f7;
   transition: 0.4s;
-  border: 1px solid #a0c4d7;
+  border: 1px solid #c9e7f7;
 }
 
 .sumblavam:before {
@@ -16,7 +16,7 @@
   height: 20px;
   width: 20px;
   left: 2px;
-  bottom: 5px;
+  bottom: 4.2px;
   background-color: #000000;
   transition: 0.4s;
 }
@@ -34,7 +34,7 @@ input:checked + .sumblavam:before {
 }
 
 .sumblavam.alemen {
-  border-radius: 44px;
+  border-radius: 20px;
 }
 
 .sumblavam.alemen:before {
