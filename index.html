@@ -12,20 +12,20 @@
     <div id="snow-animation-container"></div>
     <div class="page__body">
       <header class="header">
-        <img src="./img/logo.svg" alt="Логотип сервиса 'Место'"
-          class="header__logo">
-        <label class="perekluchatel" title="Включить снежок">
-          <input type="checkbox" id="sneg">
-          <div class="sumblavam alemen"></div>
+        <div class="header__container">
+          <img src="./img/logo.svg" alt="Логотип сервиса 'Место'"
+            class="header__logo">
+          <label class="perekluchatel" title="Включить снежок">
+            <input type="checkbox" id="sneg">
+            <div class="sumblavam alemen"></div>
+          </div>
         </header>
         <main class="container">
           <section class="profile">
             <div class="profile__container">
-              <div class="profile__avatar">
-                <img class="profile__avatar-img"
-                  src="./img/aneta-voborilova.jpg"
-                  alt="Черный кролик">
-              </div>
+              <img class="profile__avatar"
+                src="./img/aneta-voborilova.jpg"
+                alt="Черный кролик">
               <div class="profile__info">
                 <div class="profile__title-container">
                   <h1 class="profile__title">Акакий</h1>
@@ -40,58 +40,70 @@
           </section>
           <section class="elements" aria-label="Изображения">
             <ul class="elements__container">
-              <li class="elements__item item">
-                <img class="item__image" src="./img/alsu-vershinina.jpg"
-                  alt="Украшенная елка">
-                <div class="item__container">
-                  <h2 class="item__title">Ёлка</h2>
-                  <div class="item__like "></div>
-                </div>
+              <li>
+                <article class="elements__item item">
+                  <img class="item__image" src="./img/alsu-vershinina.jpg"
+                    alt="Украшенная елка">
+                  <div class="item__container">
+                    <h2 class="item__title">Ёлка</h2>
+                    <button class="item__like "></button>
+                  </div>
+                </article>
               </li>
-              <li class="elements__item item">
-                <img class="item__image"
-                  src="./img/krakenimages.jpg"
-                  alt="Праздничный ужин">
-                <div class="item__container">
-                  <h2 class="item__title">Вкусный ужин</h2>
-                  <button class="item__like" type="button"></button>
-                </div>
+              <li>
+                <article class="elements__item item">
+                  <img class="item__image"
+                    src="./img/krakenimages.jpg"
+                    alt="Праздничный ужин">
+                  <div class="item__container">
+                    <h2 class="item__title">Вкусный ужин</h2>
+                    <button class="item__like" type="button"></button>
+                  </div>
+                </article>
               </li>
-              <li class="elements__item item">
-                <img class="item__image"
-                  src="./img/anita-austvika-podarok.jpg"
-                  alt="Новогодний подарок">
-                <div class="item__container">
-                  <h2 class="item__title">Подарки</h2>
-                  <button class="item__like" type="button"></button>
-                </div>
+              <li>
+                <article class="elements__item item">
+                  <img class="item__image"
+                    src="./img/anita-austvika-podarok.jpg"
+                    alt="Новогодний подарок">
+                  <div class="item__container">
+                    <h2 class="item__title">Подарки</h2>
+                    <button class="item__like" type="button"></button>
+                  </div>
+                </article>
               </li>
-              <li class="elements__item item">
-                <img class="item__image"
-                  src="./img/anita-austvika-girl.jpg" alt="Девочка
-                  украшает елку">
-                <div class="item__container">
-                  <h2 class="item__title">Радость</h2>
-                  <button class="item__like" type="button"></button>
-                </div>
+              <li>
+                <article class="elements__item item">
+                  <img class="item__image"
+                    src="./img/anita-austvika-girl.jpg" alt="Девочка
+                    украшает елку">
+                  <div class="item__container">
+                    <h2 class="item__title">Радость</h2>
+                    <button class="item__like" type="button"></button>
+                  </div>
+                </article>
               </li>
-              <li class="elements__item item">
-                <img class="item__image"
-                  src="./img/anita-austvika.jpg" alt="Лодка с
-                  елкой на воде">
-                <div class="item__container">
-                  <h2 class="item__title">Нарядный город</h2>
-                  <button class="item__like" type="button"></button>
-                </div>
+              <li>
+                <article class="elements__item item">
+                  <img class="item__image"
+                    src="./img/anita-austvika.jpg" alt="Лодка с
+                    елкой на воде">
+                  <div class="item__container">
+                    <h2 class="item__title">Нарядный город</h2>
+                    <button class="item__like" type="button"></button>
+                  </div>
+                </article>
               </li>
-              <li class="elements__item item">
-                <img class="item__image"
-                  src="./img/katie-azi-.jpg" alt="Кофе с
-                  маршмелоу">
-                <div class="item__container">
-                  <h2 class="item__title">Настроение</h2>
-                  <button class="item__like" type="button"></button>
-                </div>
+              <li>
+                <article class="elements__item item">
+                  <img class="item__image"
+                    src="./img/katie-azi-.jpg" alt="Кофе с
+                    маршмелоу">
+                  <div class="item__container">
+                    <h2 class="item__title">Настроение</h2>
+                    <button class="item__like" type="button"></button>
+                  </div>
+                </article>
               </li>
             </ul>
           </section>
@@ -115,7 +127,6 @@
           </div>
         </section>
       </div>
-
       <script>
   var articleLink = '/scripts/other/482-snowfall-animaciya-padayuschego-snega.html';
 </script>
