@@ -13,7 +13,7 @@
 * Pop-up
 
 ## **Ссылка на сайт**
-
+https://nataliorigin.github.io/mesto-2.0/
 ## **Версия языка**
 
 html5, CSS 3.0, BEM Nested, JavaScript
